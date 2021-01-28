@@ -1,0 +1,7 @@
+#!/bin/bash
+
+tmux new-session -d -s "vaccine"
+tmux send -t "vaccine" python3\ vaccine_checker.py ENTER
+
+
+
